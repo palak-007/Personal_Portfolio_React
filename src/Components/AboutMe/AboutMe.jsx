@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
 import photo from '../../assets/pic-2.jpeg'
+import resume from '../../assets/CV.pdf'
 
 const AboutMe = () => {
     return (
@@ -18,7 +19,7 @@ const AboutMe = () => {
                          Proficient in HTML, CSS, and JavaScript, I also work with React to create responsive and dynamic websites.<br/>
                           I’m always eager to learn and take on new challenges, constantly improving my skills through practical projects.
                     </p>
-                    <a href='./assets/CV.pdf'><button>Download CV</button></a>
+                    <a href={resume}><button>Download CV</button></a>
                 </div>
             </div>
 
