@@ -16,9 +16,9 @@
     }
 }
 
-@media(min-width: 1600px){
+@media(min-width: 2200px){
     .container{
-        top: 10rem;
+        top: 8rem;
     }
 }
 
