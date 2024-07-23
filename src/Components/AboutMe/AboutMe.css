@@ -1,0 +1,166 @@
+.about-me-container {
+    margin-inline: auto;
+    margin-top: 3.5rem;
+    position: relative;
+    max-width: 900px;
+}
+
+.about-me-container::after, .about-me-container::before{
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28rem;
+    background-color: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(290px);
+}
+
+.about-me-container::after{
+    top: -3rem;
+    left: -8.5rem;
+}
+
+.about-me-container::before{
+    background: #9e51b9;
+    bottom: -4rem;
+    right: -2rem;
+}
+
+.about-me-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.about-me-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-photo {
+    width: 280px;
+    border-radius: 1rem;
+}
+
+.about-info {
+    max-width: 500px;
+    line-height: 1.8rem;
+    font-size: 0.9rem;
+}
+
+.about-info button {
+    font-size: 1rem;
+    font-weight: 400;
+    background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
+    border-radius: 0.6rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1.3rem;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.about-info button:hover {
+    transform: scale(1.2);
+}
+
+@media(max-width: 1025px) {
+    .about-me-container {
+        margin-block: 2rem;
+        max-width: 750px;
+    }
+
+    .about-me-content {
+        justify-content: space-between;
+    }
+
+    .about-img {
+        margin-left: 1.5rem;
+    }
+
+    .about-photo {
+        width: 230px;
+        border-radius: 1rem;
+    }
+
+    .about-info {
+        max-width: 400px;
+        line-height: 1.7rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 769px) {
+    .about-me-container {
+        margin-block: 2rem;
+        max-width: 650px;
+    }
+
+    .about-me-content {
+        justify-content: space-between;
+    }
+
+    .about-img {
+        margin-left: 1rem;
+    }
+
+    .about-photo {
+        width: 200px;
+        border-radius: 1rem;
+    }
+
+    .about-info {
+        max-width: 350px;
+        line-height: 1.6rem;
+        font-size: 0.7rem;
+    }
+    .about-info button {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 600px) {
+    .about-me-container {
+        margin-block: 2.5rem;
+        max-width: 650px;
+    }
+
+    .about-me-content {
+        justify-content: space-between;
+        row-gap: 1.5rem;
+        flex-direction: column;
+    }
+
+    .about-img {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-photo {
+        width: 200px;
+        border-radius: 1rem;
+    }
+
+    .about-info {
+        max-width: 350px;
+        line-height: 1.6rem;
+        font-size: 0.7rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-info button {
+        font-size: 0.8rem;
+    }
+}
+
+@media(min-width: 1600px){
+
+}

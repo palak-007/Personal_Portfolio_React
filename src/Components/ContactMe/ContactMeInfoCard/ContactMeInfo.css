@@ -1,0 +1,89 @@
+.icon img {
+    width: 70px;
+    background-color: #6751b9e4;
+    border-radius: 0.65rem;
+    padding: 0.9rem;
+}
+
+.icon {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.contact-details-card {
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1px solid #6751b9;
+    padding: 1.4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    line-height: 2rem;
+}
+
+.contact-details-card p {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+@media(max-width: 1025px) {
+    .icon img {
+        width: 60px;
+        padding: 0.8rem;
+    }
+
+    .contact-details-card {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media(max-width: 769px) {
+    .icon img {
+        width: 50px;
+        padding: 0.7rem;
+    }
+    .contact-details-card {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .contact-details-card p {
+        font-size: 0.8rem;
+    }
+    .icon {
+        display: flex;
+        column-gap: 1rem;
+        align-items: center;
+    }    
+}
+
+@media(max-width: 426px){
+    .icon img {
+        width: 40px;
+        padding: 0.5rem;
+    }
+    .contact-details-card {
+        padding: 0.7rem;
+        margin-bottom: 1rem;
+        line-height: 1.2rem;
+    }
+    .contact-details-card p {
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 376px){
+    .icon {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .contact-details-card {
+        padding: 0.6rem;
+        margin-bottom: 0.9rem;
+        line-height: 1rem;
+        justify-content: center;
+        text-align: center;
+    }
+}

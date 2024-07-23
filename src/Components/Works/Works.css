@@ -1,0 +1,43 @@
+.projects-container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.projects-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.projects-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 3rem;
+
+}
+
+@media(max-width: 1025px) {
+
+    .projects-content {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0rem;
+        row-gap: 2rem;
+    }
+}
+
+@media(max-width: 426px) {
+    .projects-content {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.5rem;
+    }
+}
+
+@media(max-width: 321px) {
+    .projects-container h5 {
+        font-size: 1.45rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+}

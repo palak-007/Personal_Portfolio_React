@@ -1,0 +1,27 @@
+:root{
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+.container{
+    max-width: 1300px !important;
+    margin: auto;
+    position: relative;
+}
+
+@media(max-width: 1300px){
+    .container{
+        padding: 0 1.5rem;
+    }
+}
+
+@media(min-width: 1600px){
+    .container{
+        top: 10rem;
+    }
+}
+
+
+
+
