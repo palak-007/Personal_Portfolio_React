@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.b3b3f65d.css",
+    "main.js": "./static/js/main.a3f2fa84.js",
+    "static/js/453.acca0757.chunk.js": "./static/js/453.acca0757.chunk.js",
+    "static/media/Proj-2.jpg": "./static/media/Proj-2.4a6f8cbc59d62cd298ca.jpg",
+    "static/media/Proj-1.jpg": "./static/media/Proj-1.4fead828a4b0019a28cf.jpg",
+    "static/media/Proj-3.jpg": "./static/media/Proj-3.6b666592ca75e895bbb5.jpg",
+    "static/media/Proj-5.jpg": "./static/media/Proj-5.d82226293e87ebc3b3d1.jpg",
+    "static/media/pic.jpeg": "./static/media/pic.2ff32957f4c0b6a55204.jpeg",
+    "static/media/Proj-4.jpg": "./static/media/Proj-4.7acd3f4d51e14655f9a9.jpg",
+    "static/media/pic-2.jpeg": "./static/media/pic-2.54a7728a2d00c15d9dc8.jpeg",
+    "static/media/tools.png": "./static/media/tools.bd733c7e56eabe31a217.png",
+    "static/media/back-end.png": "./static/media/back-end.a6a7e0158d743c9ddbd9.png",
+    "static/media/soft-skills.png": "./static/media/soft-skills.f21b15ed24a3d55d3086.png",
+    "static/media/mail.png": "./static/media/mail.2c378c9ee25927123f7d.png",
+    "static/media/call.png": "./static/media/call.d35848942c955a6232b3.png",
+    "static/media/linkedIN.png": "./static/media/linkedIN.7cb415ecc31d90329be9.png",
+    "index.html": "./index.html",
+    "main.b3b3f65d.css.map": "./static/css/main.b3b3f65d.css.map",
+    "main.a3f2fa84.js.map": "./static/js/main.a3f2fa84.js.map",
+    "453.acca0757.chunk.js.map": "./static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3b3f65d.css",
+    "static/js/main.a3f2fa84.js"
+  ]
+}
