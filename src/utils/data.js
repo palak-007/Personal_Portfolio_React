@@ -34,11 +34,12 @@ export const SkillsData = [
         ]
     },
     {
-        title: 'BackEnd',
+        title: 'Databases',
         icon: back_end_icon,
         skills: [
-            { skill: 'Node.js', percentage: '50%' },
-            { skill: 'Express.js', percentage: '45%' }
+            {skill: 'MySQL', percentage: '70%'},
+            //{ skill: 'Node.js', percentage: '50%' },
+            //{ skill: 'Express.js', percentage: '45%' }
         ]
     },
     {
@@ -68,7 +69,6 @@ export const SkillsData = [
             { skill: 'Java', percentage: '70%' },
             { skill: 'SQL', percentage: '70%' },
             { skill: 'JavaScript', percentage: '70%' },
-            { skill: 'R', percentage: '65%' },
         ]
     },
 ]
@@ -85,7 +85,7 @@ export const ProjectsData = [
             "Utilized React components for maintainable code"
         ]
     },
-    {
+    /*{
         title: "SPOTIFY CLONE",
         img: proj_2,
         repo: "https://github.com/palak-007/Spotify_Clone_React.git",
@@ -95,7 +95,7 @@ export const ProjectsData = [
             "Dynamic and responsive music streaming app",
             "Modern, user-friendly interface that mimics Spotify’s design and functionality"
         ]
-    },
+    },*/
     {
         title: "REST Countries API",
         img: proj_3,
@@ -107,7 +107,7 @@ export const ProjectsData = [
             "Clean, responsive interface with features such as country search, filter by region, and detailed country information"
         ]
     },
-    {
+    /*{
         title: "ROCK, PAPER, SCISSOR GAME",
         img: proj_4,
         repo: "",
@@ -117,7 +117,7 @@ export const ProjectsData = [
             "Interactive web application",
             "Clean, responsive interface"
         ]
-    },
+    },*/
     {
         title: "TODO APP",
         img: proj_5,
